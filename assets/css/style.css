@@ -1,0 +1,56 @@
+.click-me {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 22px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    position: relative;
+    font-weight: bold;
+    color: orange;
+  }
+
+  h1 {
+    font-family: Geo, sans-serif;
+    font-size: 6.5em;
+    font-weight: bold;
+    color: rgb(32, 161, 178);
+    
+  }
+
+  #question {
+    font-family: Geo, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(32, 178, 69);
+    position: relative;
+    
+  }
+
+  #time-remaining {
+    color: red;
+    font-size: 3.5em;
+
+  }
+
+  #loss-tracker {
+    color: red;
+    font-weight: bolder;
+
+  }
+
+  #wins-tracker {
+    color: green;
+    font-weight: bolder;
+
+  }
+
+  #gritty {
+    opacity: 0.6;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+  }

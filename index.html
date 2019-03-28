@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Week5 Homework Assignment</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body background="assets/images/Philadelphia.jpg">
+
+  <h1>Philadelphia Sports Trivia!</h1>
+  <img src="/assets/images/gritty.jpg" id="gritty">
+  <div id="time-remaining">
+    <h2>30</h2>
+  </div>
+  <!--div for the question to be loaded-->
+  <div id="question"></div>
+    <!--buttons for answers to be loaded-->
+  <button id="answer1" class="click-me"></button>
+  <button id="answer2"class="click-me"></button>
+  <button id="answer3"class="click-me"></button>
+  <button id="answer4"class="click-me"></button>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/javascript/app.js"></script>
+
+  <!--once game ends, the win and loss tracker should be dynamically loaded into here with text and-->
+  <p><span id="wins-tracker"></span></p>
+  <p><span id="loss-tracker"></span></p>
+</body>
+
+</html>
